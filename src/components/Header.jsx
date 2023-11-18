@@ -1,6 +1,6 @@
 import React from "react";
-import Search from "../media/icons/search.png";
-import Notification from "../media/icons/notification.png";
+import Search from "../media/icons/search.svg";
+import Notification from "../media/icons/bell-regular.svg";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex items-center">
           <div className="bg-orange_primary mr-4 rounded-full p-2">
             <svg
-              className="block h-6 w-6 text-white "
+              className="block h-6 w-6 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="3"
