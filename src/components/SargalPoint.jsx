@@ -6,8 +6,8 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function SargalPoint() {
   return (
-    <div className="grid grid-cols w-full h-16">
-      <div className="flex justify-between items-center bg-banniere_principal">
+    <div className="grid grid-cols w-full h-16 ">
+      <div className="flex justify-between items-center bg-banniere_principal mx-0">
         <div className="flex ml-4 text-white">
           <FontAwesomeIcon
             icon={faGift}

@@ -12,7 +12,7 @@ export default function OperationsArea() {
   return (
     <div
       className="grid grid-cols-2 grid-rows-2
-      w-full "
+      w-full h-[17rem]"
     >
       <div className="flex justify-between bg-banniere_principal pt-3 pb-12">
         <div className="ml-3">
@@ -39,29 +39,33 @@ export default function OperationsArea() {
         </div>
       </div>
 
-      <div className="flex justify-between pt-3 bg-banniere_principal pb-12">
+      <div className="flex justify-between pt-3 bg-banniere_principal pb-12 ">
         <div className="ml-3 text-white">
           <FontAwesomeIcon
             icon={faPhone}
             style={{ color: "#fff", fontSize: "25px" }}
           />
-          <div className="inline-block ml-2 whitespace-nowrap">
+          <div className="inline-block whitespace-nowrap">
             <p className="mt-4">Crédit recharge</p>
             <h3>0 CFA</h3>
           </div>
         </div>
-        <div className="flex mr-3">
+        <div className="flex ">
           <FontAwesomeIcon
             icon={faEye}
             style={{
               color: "#f16e00",
               fontSize: "25px",
-              marginRight: "1.5rem",
             }}
           />
+
           <FontAwesomeIcon
             icon={faCaretRight}
-            style={{ color: "#f16e00", fontSize: "25px" }}
+            style={{
+              color: "#f16e00",
+              fontSize: "25px",
+              marginRight: "3rem",
+            }}
           />
         </div>
       </div>
